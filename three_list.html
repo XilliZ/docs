@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Третья страница страница</title> <!--Переименовать-->
+		<link rel="stylesheet" href="./style_three.css">
+		<script src="./Action.js"></script>
+	</head>
+<body>
+	<header>
+        <a class="up" href="./first_list.html">Выйти</a>
+		<table class="uper">
+			<tr>
+			 <td class="menu_header">Движение дел и документов в суде</td>
+			 <td class="menu_header_right">Холкин А.В. Отдел информатизации</td>
+			</tr>
+		   </table>
+	</header>
+
+</body>  
+
+<h2>Поручение дел и документов в подразделение</h2>
+
+<div class="container">
+		
+	<div class="center">
+		<div class="left">
+			<div class="left_content">
+				<label for="number"><b>Введите номер дела или отсканируйте штих-код</b></label>
+			</div>
+		</div>
+		<div class="right">
+				<div class="right_content">	
+				<input id="textInput" type="text" placeholder="Введите номер дела" name="number" required> <br>
+				<table class="knopka">
+					<tr>
+					 <td> <button type="submit"><a href="A/">Найти</button></a></td>
+					 <td> <button onclick="clearStuff()" type="submit">Очистить</button></td>
+					 <td> <button type="submit"><a href="./two_list.html">Назад</button></a></td>
+					</tr>
+				   </table>
+				</div>
+		</div>
+	</div>
+	
+</div>
+
+
+
+
+<footer>
+    <a href="#main">О программе</a>
+</footer>	
+
+<a href="#" id="main">
+    <div id="okno">
+      О программе <br>
+      Движение дел и документов в суде <br>
+      Версия 1.0 <br>
+      Екатеринбург 2022г.
+    </div>
+</a>
+
+
+</html>
